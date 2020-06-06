@@ -1,0 +1,183 @@
+    @font-face{
+        font-family: calpsSlim;
+        src:url(calpsSlim.ttf);
+    }
+    @font-face{
+        font-family: bebas;
+        src:url(bebas.ttf);
+    }
+    *{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+    }
+    
+    html,body{
+        font-family:calpsSlim;
+        font-size: 1rem;
+        width:100%;
+        height:100%;
+        margin:0;
+        padding:0;
+        overflow-x:hidden;
+    }
+    
+    .btn{
+        -webkit-clip-path: polygon(20% 0, 100% 0, 100% 81%, 81% 100%, 25% 100%, 0 100%, 0 18%);/*safari*/
+         clip-path: polygon(20% 0, 100% 0, 100% 81%, 81% 100%, 25% 100%, 0 100%, 0 18%);
+    }
+    .btn-primary{
+        background:#2b2b2b;
+        padding: 0px 25px 0px 25px;
+        float: right;
+        border:0px;
+        border-radius:1px;
+    }
+    .btn-secondary{
+        background: #EC1D22;
+        border:0;
+    }
+
+    /* ------------navigation-bar-and-the-background-image-------------- */
+    .section-1{
+        background-image: linear-gradient(rgba(61, 61, 61, 0.6),rgba(56, 56, 56, 0.6)),url(hero.png);
+        background-size: cover;
+        background-position: center;
+        height: 105vh;
+    }
+    .navbar{
+        padding-top:15px;
+    }
+    .nav-link{
+      font-size: 90%;
+      text-transform: uppercase;
+      color: white;
+      margin: 1px 12px;
+    }
+    .navbar-brand{
+        font-family: bebas;
+        background:red;
+        text-shadow: .2px 0 0 #fff, -.2px 0 0 #fff, 0 .2px 0 #fff, 0 -.2px 0 #fff, .2px .2px #fff, -.2px -.2px 0 #fff, .2px -.2px 0 #fff, -.2px .2px 0 #fff;
+        font-size:2.3rem;
+        line-height:.65;
+        letter-spacing: -1.5px;
+    }
+    
+    .section-1-1{
+        position: relative;
+        top:60%;
+    }
+    .con-1-2 h3{
+        color:red;
+        font-size: 200%;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        text-shadow: 1px 1px 2px black;
+    }
+  
+    .con-1-1{
+        color: white;
+        
+    }
+    .con-1-1 h4{
+        font-size:120%;
+    }
+    .dot {
+        height: 10px;
+        width: 10px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        margin:4px;
+      }
+      .dot-3{
+          background-color: red;
+      }
+
+    /* //------------navigation-bar-and-the-background-image--------------// */
+    /* -------------------------------------------------------------------------------------------------------------------------- */
+    /* ---------------movies-section-with-cards-and-grey-box------------ */
+    .movies{
+        color: red;
+        border-bottom: red 2px solid;
+        display: inline-block;
+        margin-top: 50px;
+    }
+    .grey-box{
+        background: rgb(41, 41, 41);
+        position:relative;
+        z-index: -1;
+        height:10vh;
+        top:35px;
+    }
+    .card{
+        box-shadow:1px 1px 2px black;
+        margin:20px auto;
+    }
+    /* //---------------movies-section-with-cards-and-grey-box------------// */
+    .btn h6{
+        font-size: 20px;
+    }
+    .load-more-text{
+        padding: 2px 20px;
+    }
+    .big-button{
+      font-size:2rem;
+      margin-bottom: 10vh;
+    }
+    /* -------------------------------------------------------------------------------------------------------------------------- */
+    /* -------------------footer-section----------------- */
+    .section-3{
+      background: #2B2B2B;
+      color:white;
+      position:relative;
+    }
+    .merchandise{
+        font-size:150%;
+        letter-spacing:1px;
+    }
+    .copyright{
+        text-align:center;
+        font-size:90%;
+        color:#4b4b4b;
+    }
+    .section-3 .row{
+        padding-top:20px;
+    }
+    .section-3 ul li{
+        padding-bottom:20px;
+        
+    }
+    /* //-------------------footer-section-----------------// */
+    /* -------------------------------------------------------------------------------------------------------------------------- */
+    @media(max-width:1000px){
+        .content-1-1{
+            left:0px;
+        }
+    }
+    @media(max-width:570px){
+        .section-3 ul{
+           display:inline-flex;
+           margin: 10px auto;
+        }
+        .section-3 ul li{
+            margin:2px 10px;
+        }
+    }
+    @media(max-width:510px){
+        body{
+            font-size:.7rem;
+        }
+        .grey-box{
+            display:none;
+        }
+        .big-button{
+            display: none;
+        }
+        
+    }
+    /*
+    @media(max-width:){
+
+    }
+    */

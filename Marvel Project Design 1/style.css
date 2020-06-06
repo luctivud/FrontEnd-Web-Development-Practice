@@ -1,0 +1,212 @@
+@font-face {
+    font-family: calpsSlim;
+    src: url(calpsSlim.ttf);
+  }
+  *{
+      font-family: calpsSlim,sans-serif;
+  }
+  .navbar{
+      padding-top:30px;
+  }
+  .navbar-toggler-icon{
+      color:white;
+  }
+  .nav-link{
+      font-size: 90%;
+      text-transform: uppercase;
+      color: white;
+      margin: 1px 4px;
+  }
+  .navbar-brnd{
+      position: absolute;
+      
+      font-size:2.5rem;
+      font-weight: 900;
+      color:white;
+      background: red;
+      background-size: contain;
+      top:36px;
+      right:48%;
+      margin: -3px;
+      padding: 0;
+      line-height: .7;
+  }
+
+  .navbar-brnd:hover{
+    background-color:rgb(228, 10, 10);
+}
+
+
+  .section-1{
+      background-image: linear-gradient(rgba(61, 61, 61, 0.6),rgba(56, 56, 56, 0.6)),url(assets/hero.png);
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+  }
+
+  .content-1{
+      position: absolute;
+      top: 70vh;
+      right:44%;
+      width:auto;
+      text-align: center;
+  }
+
+  .con-1-2{
+      color:red;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      text-shadow: 1px 1px 2px black;
+  }
+
+  .con-1-1{
+      color: white;
+      
+  }
+  .con-1-1 h4{
+      font-size:1.2rem;
+  }
+
+  .udit{
+      margin: 2px;
+      margin-bottom:30px;
+  }
+  
+  .udit-row{
+      position: relative;
+      top:60px;
+  }
+  .movies{
+      position: relative;
+      top:50px;
+      text-align: center;
+      color: red;
+      border-bottom: red 2px solid;
+      display: inline-block;
+      margin-left:45%;
+
+  }
+
+
+  .load-more{
+      position: relative;
+      top:140px;
+      left:38%;
+      margin: 30px 20px;
+      letter-spacing: 2px;
+  }
+
+  .load-more-text{
+      padding: 2px 20px;
+  }
+
+  .big-button{
+    font-size:2rem;
+  }
+
+  .udit-row h6{
+      color:red;
+      text-align: center;
+      width: 100%;
+      margin-right: 0px;
+      padding-right: 0px;
+  }
+
+  .btn-primary{
+      background:#2b2b2b;
+      padding: 0px 25px 0px 25px;
+      float: right;
+      border:0px;
+      border-radius:1px;
+  }
+
+  .btn-secondary{
+     background: #EC1D22;
+     border:0;
+  }
+
+  .btn h6{
+      font-size: 20px;
+  }
+  .container-2{
+      width:70%;
+  }
+  .black-row{
+      background: rgb(41, 41, 41);
+      position:relative;
+      z-index: -1;
+      height:9vh;
+      top:90px;
+  }
+  
+  .container-3{
+      background: #2B2B2B;
+      color:white;
+      width:90%;
+      height:35vh;
+      position:relative;
+      margin-top:200px;
+  }
+  .container-3 ul {
+    list-style: none;
+  }
+
+  .lefty{
+      margin-left: 60px;
+
+  }
+  .righty{
+      margin-right: 90px;
+      text-align: right;
+  }
+  .marvell{
+      text-align: center;
+      line-height: 1.2;
+      font-size:.75rem;
+
+  }
+
+  
+  .copyright{
+      text-align:center;
+      font-size:.9rem;
+      color:#4b4b4b;
+  }
+
+  .wow-row{
+      padding-top: 30px;
+  }
+
+  .btn{
+    -webkit-clip-path: polygon(20% 0, 100% 0, 100% 81%, 81% 100%, 25% 100%, 0 100%, 0 18%);/*safari*/
+     clip-path: polygon(20% 0, 100% 0, 100% 81%, 81% 100%, 25% 100%, 0 100%, 0 18%);
+      }
+
+.footer-list{
+    font-size:.8rem;
+    line-height: 2.5;
+}
+.merchandise{
+    font-size:1.5rem;
+    letter-spacing:1px;
+}
+
+@media (max-width:1000px){
+    .container-3{
+        height:60vh;
+    }
+}
+@media (max-width:1275px){
+    .udit{
+        margin:30px 70px;
+    }
+    .black-row{
+        display: none;
+    }
+}
+
+@media(max-width:900px){
+    .content-1 {
+        right:30%;
+    }
+}
