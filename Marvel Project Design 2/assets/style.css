@@ -40,7 +40,7 @@
 
     /* ------------navigation-bar-and-the-background-image-------------- */
     .section-1{
-        background-image: linear-gradient(rgba(61, 61, 61, 0.6),rgba(56, 56, 56, 0.6)),url(hero.png);
+        background-image: linear-gradient(rgba(61, 61, 61, 0.6),rgba(56, 56, 56, 0.6)),url(HERO.png);
         background-size: cover;
         background-position: center;
         height: 105vh;
